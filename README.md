@@ -1,5 +1,5 @@
 # 637trumpet About
-Synthesizes a trumpet tone at 350Hz. Trumpet tone created by additive synthesis using MPEG4-Structured Audio.
+Synthesizes a trumpet tone at 350Hz for 2.6 seconds. Trumpet tone created by additive synthesis using MPEG4-Structured Audio.
 See included TrumpetEnvelopeDataTable PDF for the Harmonic table data used to generate trumpet tone.
 Amplitude values are shorts (-32,768 to 32,768), so they are divided by 32,768 to get range -1 to 1.
 
