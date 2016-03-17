@@ -10,7 +10,7 @@ Amplitude values are shorts (-32,768 to 32,768), so they are divided by 32,768 t
 
 # How to use:
 1) Download and install Sfront 
-Source: https://john-lazzaro.github.io//sa/sfman/user/install/index.html#download 
+  -Source: https://john-lazzaro.github.io//sa/sfman/user/install/index.html#download 
 
 2) Configure makefile:
 Change SFRONT variable in Makefile to wherever you unpacked Sfront
