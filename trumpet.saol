@@ -1,5 +1,6 @@
-//  trumpet.saol: generates a wavetable-based trumpet waveform 
+//  trumpet.saol: orchestra file for wavetable-based trumpet waveform 
 //  with 8 harmonics and a multi-tiered amplitude envelope
+//  Amplitude data appriximated using line segments
 //  Written by: Steve Pedersen
 
 global {
@@ -11,12 +12,10 @@ global {
   srate 44100;   // CD-quality 
 }
 
-
 //
 // instr trumpet
 // table-driven version
 //
-
 
 instr trumpet (fr) {
   imports exports table cyc; 
@@ -29,7 +28,7 @@ instr trumpet (fr) {
   delta = 0.2;
   scalar = 32768;
 
-  printf("freq: %f\n",fr);
+  // printf("freq: %f\n",fr);
 
   // **********************
   // computed during k-pass

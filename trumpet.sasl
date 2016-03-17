@@ -1,14 +1,22 @@
+//  trumpet.sasl: score file for wavetable-based trumpet waveform 
+//  with 8 harmonics and a multi-tiered amplitude envelope
+//  Amplitude data appriximated using line segments
+//  Written by: Steve Pedersen
 
+// Chord Freq. Ratios
+// Major 4:5:6
+// Minor 10:12:15
+// Diminished (approx. 20:24:29)
+// 7th 20:25:30:36
+// Min. 7th  10:12:15:18
+// Maj. 7th  8:10:12:15
+
+// Use the table above to create chords
+
+//0.0 trumpet 6.2 30
+//0.0 trumpet 6.2 120
+//0.0 trumpet 6.2 180
+//6.2 end
 
 0.0 trumpet 2.6 350
 2.6 end
-
-
-
-
-
-
-
-
-
-

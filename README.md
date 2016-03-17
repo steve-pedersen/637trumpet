@@ -17,10 +17,13 @@ Amplitude values are shorts (-32,768 to 32,768), so they are divided by 32,768 t
 
   $ make
 
-  $ ./sa
-
   $ open output.wav
 
 4) To reset:
 
   $ make clean
+
+5) To customize:
+
+  Follow instructions in the SASL file about making chords. With the current SAOL code, sound files are limited to 2.6 seconds.
+  To create more complex/longer arrangements, the SAOL file will need to be customized as well.
